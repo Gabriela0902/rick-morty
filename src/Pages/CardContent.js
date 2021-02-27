@@ -5,7 +5,7 @@ function CardContent({specie, gender,status, name}) {
     return (
         <CaraBack class="cara detras">
             <ContentCard>
-                <Text class="card-title"  fontSize="40px" textAlign="center" marginTop="20%" marginBottom="10%">{name}</Text>
+                <Text class="card-title"  fontSize="35px" textAlign="center" marginTop="20%" marginBottom="10%">{name}</Text>
                 <div className="row" style={{width: "90%", margin:"auto"}}>
                     <div className="col-5 padding0">
                         <SubText class="card-text">Especie:</SubText>
